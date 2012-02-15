@@ -32,7 +32,7 @@ function upload (response,postData) {
 function fail (response,PostData) {
     console.log ("Request Failed!");
     response.writeHead(404, {"Content-Type": "text/plain"});    
-    response.write("404 Not found");    
+    response.write("404 Not found by W^3");    
     response.end();
 }
 
